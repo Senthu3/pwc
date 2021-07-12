@@ -1,0 +1,44 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * Top menu for store
+ *
+ * @var $block \Magento\Theme\Block\Html\Topmenu
+ */
+
+$columnsLimit = $block->getColumnsLimit() ?: 0;
+$_menuHtml = $block->getHtml('level-top', 'submenu', $columnsLimit);
+?>
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li class="level0 level-top ui-menu-item">
+            <a href="<?php echo $this->getBaseUrl()."about-us"; ?>" class="level-top ui-corner-all"  role="menuitem">
+                <span><?php echo __("About Us")?></span>
+            </a>
+        </li>
+        <li class="level0 level-top ui-menu-item">
+            <a href="<?php echo $this->getBaseUrl()."catalog"; ?>" class="level-top ui-corner-all"  role="menuitem">
+                <span><?php echo __("Products")?></span>
+            </a>
+        </li>
+        <li class="level0 level-top ui-menu-item">
+            <a href="<?php echo $this->getBaseUrl()."resource"; ?>" class="level-top ui-corner-all"  role="menuitem">
+                <span><?php echo __("Resource")?></span>
+            </a>
+        </li>
+        <li class="level0 nav-5 level-top parent">
+            <a href="<?php echo $this->getBaseUrl()."raise-request"; ?>" class="level-top ui-corner-all"  role="menuitem">
+                <span><?php echo __("Raise Request")?></span>
+            </a>
+            <ul class="level0 submenu">
+                <li class="level1 nav-5-1 first last">
+                    <a href="/shoes/high-heels.html"><span>High Heels</span></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>

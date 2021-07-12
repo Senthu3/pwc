@@ -1,0 +1,38 @@
+<footer>
+<section>
+<div class="section-1">
+<ul class="custom-links">
+<li>Press Release</li>
+<li>Blog</li>
+<li>Contact us</li>
+<li>Help &amp; Support</li>
+</ul>
+<ul class="area">
+<li><img src="{{media url="wysiwyg/3083741.png"}}" alt=""></li>
+<li>UK</li>
+<li>US</li>
+<li>Europe</li>
+<li>APAC</li>
+<li>Russia</li>
+<li>India</li>
+</ul>
+<div>Biocon Laboratories inc.,in Princeton, New Jersey, has been awarded VAWD accreditation.</div>
+</div>
+<div class="section-2">Want you to Get in Touch</div>
+<div class="section-3">
+<ul class="social-media">
+<li class="linkedin"><a><img></a></li>
+<li class="linkedin"><a><img></a></li>
+</ul>
+</div>
+</section>
+<div class="footer-links">
+<div class="copy-rights">© 2021 Biocon's Laboratories Ltd. All rights reserved.</div>
+<ul>
+<li>Privacy Notice</li>
+<li>Terms Of Use</li>
+<li>Accessibility</li>
+<li>Cookie Policy</li>
+</ul>
+</div>
+</footer>

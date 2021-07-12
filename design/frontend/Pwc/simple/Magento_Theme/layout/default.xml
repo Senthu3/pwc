@@ -1,0 +1,21 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.container">
+            <block class="Magento\Framework\View\Element\Template" name="myheader" template="Magento_Theme::html/customheader.phtml" before="-"/>
+        </referenceContainer>
+        <move element="logo" as="logo" destination="myheader"/>
+        <move element="catalog.topnav" as="nav" destination="myheader"/>
+        <move element="top.search" as="topSearch" destination="myheader"/>
+        <move element="my-account-link" as="myAccount" destination="myheader"/>
+        <move element="currency" as="currency" destination="myheader"/>
+        <move element="minicart" as="minicart" destination="myheader"/>
+        <referenceBlock name="advanced-search-link" remove="true"/>
+        <referenceBlock name="register-link" remove="true" />
+        <referenceBlock name="authorization-link" remove="true" />
+        <referenceBlock name="wish-list-link" remove="true" />
+        <referenceBlock name="header.panel" remove="true"/>
+        <referenceContainer name="footer-container">
+            <block class="Magento\Theme\Block\Html\Footer" name="footer" template="html/footer.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

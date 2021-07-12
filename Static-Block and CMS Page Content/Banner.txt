@@ -1,0 +1,10 @@
+<div class="banner-wrapper">
+<div class="banner-content">
+<div class="banner-content-1"><img src="{{media url="wysiwyg/banner/879761.png"}}" alt="">
+<p>Biocon bags ‘Best Biotech Patents Award 2018-19’ by Indian Drug Manufacturing Association (IDMA) at the IDMA 58th Annual Day celebration.</p>
+</div>
+<div class="banner-content-2"><img src="{{media url="wysiwyg/banner/868183.png"}}" alt="">
+<p>Biocon's APIs Facility in Hyderabad awarded the Annual Greentech Environment Award for ‘Outstanding Achievements in Environment Management in the Pharmaceutical Sector ’ during the 19th Annual Greentech Sustainability Conference.</p>
+</div>
+</div>
+<img src="{{media url="wysiwyg/bio_2x.png"}}" alt=""></div>

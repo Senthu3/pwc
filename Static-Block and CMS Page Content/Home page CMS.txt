@@ -1,0 +1,3 @@
+<div>{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="21"}}</div>
+<div>{{block class="Magento\Framework\View\Element\Template" template="Magento_Theme::html/slider.phtml"}}</div>
+<div>{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="22"}}</div>

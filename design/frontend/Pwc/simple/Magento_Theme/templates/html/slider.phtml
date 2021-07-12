@@ -1,0 +1,25 @@
+<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('image_slider')->toHtml();?>
+<script type="text/javascript">
+    require([
+        'jquery',
+        'owlcarousel'
+    ], function ($) {
+        'use strict';
+        $(".owl-carousel").owlCarousel({
+          stagePadding: 0,
+          items: 1,
+          loop:true,
+          margin:0,
+          navigation : true,
+          pagination : false,
+          singleItem:true,
+          nav:true,
+          rewind: true,
+          navText: [
+              "<i class='fa fa-caret-left'></i>",
+              "<i class='fa fa-caret-right'></i>"
+          ],
+          dots:true
+        });
+    });
+</script>

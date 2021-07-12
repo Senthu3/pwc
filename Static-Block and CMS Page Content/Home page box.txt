@@ -1,0 +1,26 @@
+<div class="box-wrapper">
+<div class="box box-1">
+<div class="border-image"><img src="{{media url="wysiwyg/file.png"}}" alt=""></div>
+<p class="count">276</p>
+<p class="box-text">Patents Granted</p>
+<p class="box-legend">(Small Molecules)</p>
+</div>
+<div class="box box-2">
+<div class="border-image"><img src="{{media url="wysiwyg/file.png"}}" alt=""></div>
+<p class="count">891</p>
+<p class="box-text">Patents Granted</p>
+<p class="box-legend">(Biologics)</p>
+</div>
+<div class="box box-3">
+<div class="border-image">
+<div class="letter">R</div>
+</div>
+<p class="count">25+</p>
+<p class="box-text">cGMP Approvals International regulatory agencies</p>
+</div>
+<div class="box box-4">
+<div class="border-image"><img src="{{media url="wysiwyg/2522550.png"}}" alt=""></div>
+<p class="count">07</p>
+<p class="box-text">Biologics were taken from 'Lab to Market': 2 Novels and 5 Biosimillars</p>
+</div>
+</div>
